@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "420806433153",
+    "firebase_url": "https://pravinmessenger.firebaseio.com",
+    "project_id": "pravinmessenger",
+    "storage_bucket": "pravinmessenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420806433153:android:21377d0e64e5102f9eb080",
+        "android_client_info": {
+          "package_name": "com.pravin.pravinmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420806433153-cji83o4vk7evko95sumhoh1kckqqffvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pravin.pravinmessenger",
+            "certificate_hash": "693655c99d0fe96112b97a9093a181f9d67bd227"
+          }
+        },
+        {
+          "client_id": "420806433153-r5uv8tuadtrugfbkr58isefrr861pbrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAlSdqNedbdsZxVS3tyIIFfZ6AZVn33HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420806433153-r5uv8tuadtrugfbkr58isefrr861pbrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

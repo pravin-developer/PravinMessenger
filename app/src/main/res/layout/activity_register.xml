@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9DF27"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/Username_editTextR"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="288dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableStart="@drawable/edit_profile"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="6dp"
+        android:paddingLeft="16dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email_editTextR"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="229dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableStart="@drawable/email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="16dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Password_editTextR"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableStart="@drawable/password"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_Register"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/alradyAccount_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="56dp"
+        android:text="Already had an Account!"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/select_pic_view"
+
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_above="@+id/Username_editTextR"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="354dp"
+        app:civ_border_width="5dp" />
+
+    <Button
+        android:id="@+id/select_imageButton"
+        android:layout_width="231dp"
+        android:layout_height="230dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="406dp"
+        android:background="@drawable/rounded_select_pic"
+        android:text="Upload image" />
+
+</RelativeLayout>
